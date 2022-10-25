@@ -1,0 +1,10 @@
+.loginpage__cnt {
+    padding: 16px 16px;
+}
+
+.loginpage__title {
+    margin-top: 4rem;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 4rem;
+}

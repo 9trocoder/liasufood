@@ -1,0 +1,60 @@
+.homepage__cnt {
+  margin-top: 4.5rem;
+}
+
+.greeting {
+  font-size: 11px;
+  font-weight: 400;
+  color: #757575;
+  padding-left: 16px;
+}
+
+.happy {
+  font-size: 16px;
+  font-weight: 800;
+  color: #111;
+  padding: 8px 16px;
+}
+
+.food__list-carousel {
+  margin-top: 8px;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 120px 50px 50px 50px 50px 50px;
+  gap: 10px;
+  padding-left: 16px;
+  align-items: center;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.food__list-carousel::-webkit-scrollbar {
+  display: none;
+}
+.food__list-items {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.food__listfist {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #f2a500;
+  border-radius: 9999px;
+  padding: 8px;
+}
+
+.food__listfist p {
+  color: #111 !important;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.food__list-items p {
+  font-size: 12px;
+  color: #b8b8b8;
+}

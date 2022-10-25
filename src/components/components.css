@@ -1,0 +1,267 @@
+/* Input */
+.input__container {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.input__container-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input__label {
+  font-size: 11px;
+  color: #757575;
+}
+
+.input__container input {
+  padding-left: 8px;
+  padding-bottom: 4.5px;
+  border: none;
+  width: 100%;
+  font-family: inherit;
+  font-size: 12px;
+  color: #111111;
+  outline: none;
+  border-bottom: 0.1px solid rgba(63, 62, 62, 0.315);
+}
+
+.input__container input:focus {
+  border-color: #111;
+  border-bottom-width: 2px;
+}
+
+.loginpage__forgotpassword {
+  display: flex;
+  width: 100%;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-bottom: 1.5rem;
+}
+
+.loginpage__forgot-pass {
+  font-size: 11px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.general__btn {
+  width: 100%;
+  height: 45px;
+  border: none;
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 500;
+  color: #111111;
+  background-color: #f2a500;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.social__signin {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  height: 45px;
+  font-family: inherit;
+  font-weight: 500;
+  background-color: transparent;
+  border: 1px solid #111;
+  border-radius: 3px;
+  margin-top: 1.5rem;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.donthaveaccount {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.donthaveaccount p {
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  color: #111;
+  cursor: pointer;
+}
+
+.donthaveaccount p span {
+  font-weight: 600;
+}
+
+/* bottomNav */
+.bottomnav__cnt {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #ffffff;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 14px 0;
+  z-index: 999;
+  align-items: center;
+  justify-content: center;
+  border-top: 0.1px solid rgba(63, 62, 62, 0.315);
+}
+
+.bottomnav__cnt-item {
+  display: grid;
+  align-items: center;
+}
+
+.bottomnav__cnt-item button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* Home page Nav */
+.homenav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 56px;
+  padding: 10px 16px;
+  display: flex;
+  gap: 14px;
+  border-bottom: 0.1px solid rgba(63, 62, 62, 0.315);
+  background-color: #fff;
+}
+
+.homenav img {
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  border-radius: 9999px;
+}
+
+.homenav input {
+  width: 100%;
+  font-family: inherit;
+  font-size: 12px;
+  border: none;
+  background-color: #f5f5f7;
+  outline: none;
+  border-radius: 9999px;
+  padding: 10px 14px;
+  color: #111;
+}
+
+.homenav input:hover,
+.homenav input:focus {
+  background-color: #fff;
+}
+
+/* Food Tray */
+.suggestion__cnt {
+  padding: 16px 16px;
+  margin-top: 16px;
+  display: flex;
+  gap: 0.4rem;
+}
+
+.suggestion {
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.suggestionlabel {
+  font-size: 11px;
+  font-weight: 500;
+  color: #b8b8b8;
+}
+
+.foodtray__cnt {
+  display: flex;
+  overflow-x: scroll;
+  gap: 20px;
+  padding-left: 16px;
+  padding-right: 16px;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.foodtray__cnt::-webkit-scrollbar {
+  display: none;
+}
+
+.foodtray__cnt-items {
+  width: 220px;
+  cursor: pointer;
+}
+
+.foodtray__cnt-items img {
+  width: 220px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.foodtray__title {
+  padding-top: 12px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.foodtray__paragraph {
+  font-size: 10px;
+  color: #757575;
+  padding-top: 7px;
+  padding-bottom: 10px;
+}
+
+.foodtray__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.foodtray__bottom-item {
+  display: flex;
+  align-items: center;
+  gap: 0.1rem;
+}
+
+.foodtray__bottom-item p {
+  font-size: 11px;
+}
+
+
+/* Extra nav */
+.extranav__cnt {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 56px;
+    padding: 10px 16px;
+    gap: 14px;
+    border-bottom: 0.1px solid rgba(63, 62, 62, 0.315);
+    background-color: #fff;
+}
+.backicon {
+    cursor: pointer;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.backicon p {
+    font-size: 11px;
+    font-weight: 600;
+}
+
+/* Food Details */
+
